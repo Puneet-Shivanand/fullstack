@@ -1,5 +1,15 @@
-function welcome(user='foobar', message='good day!'){
-	alert(`Hello ${user}, ${message}`);
+let mess = 'Puneet';
+let greeting = (mess) => alert(`${mess}`);
+greeting('Hello');
+
+let createBlog = (title, body) =>{
+	if (!title){
+		throw new Error('title cannot be empty');
+	}
+	if (!body){
+                throw new Error('body cannot be empty');
+        }
+
+	return alert(`${title} - ${body}`);
 };
-//welcome("Puneet", "where is my food")
-welcome();
+createBlog('This Title', 'This Body');
