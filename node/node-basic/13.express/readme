@@ -1,0 +1,5 @@
+### typical way to run server
+	browser-sync start --server --directory --files "**/*"
+
+### express
+	node / nodemon app.js
