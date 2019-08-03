@@ -1,0 +1,25 @@
+{
+  "name": "Animals",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "photoURL": {
+      "type": "string",
+      "required": true
+    },
+    "looksFriendly": {
+      "type": "boolean",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
