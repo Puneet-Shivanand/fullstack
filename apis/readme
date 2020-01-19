@@ -1,0 +1,6 @@
+spurce : https://www.youtube.com/watch?v=Bm6u1f2PUag
+lb
+lb datasource
+create mongo access from cloud get connection string
+	mongodb+srv://puneet:<password>@cluster0-mjyd2.mongodb.net/test?retryWrites=true&w=majority
+lb model	

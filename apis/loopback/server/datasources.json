@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MdataSource": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://puneet:puneet123@cluster0-mjyd2.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "",
+    "password": "",
+    "name": "MdataSource",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
